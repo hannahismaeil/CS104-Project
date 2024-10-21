@@ -1,0 +1,8 @@
+/* On-Sale Page CSS */
+
+.navbar-in ul li{
+    list-style-type: none;
+    a:link{
+        text-decoration-line: none;
+    }
+}

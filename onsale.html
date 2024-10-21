@@ -4,10 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="onsale.css">
-    
+
     <title>Product Page - Online Shop</title>
 </head>
-<body>
+<body class="body">
+    <!--Header-->
+    <header class="head">
+        <div class="container">
+            <div class="navbar-in">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="onlineshop.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Will Add Little Shopping Cart Later</i></a></li>
+                 </ul>
+             </div>
+        </div>
+    </header>
+
+     <!--- On Sale -->
+     <div class="container-OS">
+        <h2 class="text-center-OS">On Sale</h2>
+        <div class="row1">
+            <div class="products-OS">
+                <div class="cart104">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$63.99</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Product 1">
+                            <input type="hidden" name="price" value="63.99">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="cart01" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+<br>
+    <div class="row2">
+        <div class="products-OS">
+            <div class="cart104">
+                <img src="img/product-2.jpg" class="card-img-top" alt="Product">
+                <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">$47.99</p>
+                    <form action="cart.html" method="GET">
+                        <input type="hidden" name="product" value="Product 2">
+                        <input type="hidden" name="price" value="47.99">
+                        <input type="hidden" name="quantity" value="1">
+                        <input type="submit" class="cart02" value="Add to Cart">
+                    </form>
+                </div>
+            </div>
+        </div>
     
 </body>
 </html>
