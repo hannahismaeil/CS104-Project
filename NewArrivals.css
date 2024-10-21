@@ -1,0 +1,70 @@
+/* New Arrivals Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.new-arrivals {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-arrivals h2 {
+    color: #333;
+}
+
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 25%;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
