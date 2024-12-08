@@ -1,28 +1,53 @@
 /* New Arrivals Design */
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-header {
+.head {
     background-color: #333;
-    padding: 10px;
+    color: #fff;
+    padding: 10px 0;
 }
 
-header ul {
-    list-style-type: none;
-    text-align: center;
+.navbar-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-header ul li {
-    display: inline;
-    margin-right: 20px;
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-header ul li a {
-    color: white;
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
     text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.fa-shopping-cart {
+    font-size: 20px;
+    color: white;
+}
+
+.fa-shopping-cart:hover {
+    color: #ffcc00;
 }
 
 
@@ -31,7 +56,8 @@ header ul li a {
     margin-top: 20px;
 }
 
-.new-arrivals h2 {
+h2 {
+    text-align: center;
     color: #333;
 }
 
@@ -67,4 +93,13 @@ button {
     border: none;
     padding: 10px;
     border-radius: 5px;
+}
+
+.new-arrivals{
+    display: inline;
+    width: 10%;
+    text-align: center;
+    text-align: center; 
+    vertical-align: middle;
+    margin:10%;
 }

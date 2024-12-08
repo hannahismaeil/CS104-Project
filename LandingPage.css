@@ -1,13 +1,22 @@
 /* Landing Page Design */
 
 .title{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 75px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .body{
     background-color: rgb(167,163,118);
+    font-family: Arial, sans-serif;
 }
 
 .list-navbar ul li{
@@ -15,4 +24,24 @@
     a:link{
         text-decoration-line: none;
     }
+    a:visited { color:black;
+    }
+}
+
+.social-link{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 450px;
+    margin-right: auto;
+    width: 10%;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content:center;
+    font-size: 40px;
+    font-weight: bold;
 }

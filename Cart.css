@@ -1,6 +1,5 @@
 /* Cart Design */
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
@@ -43,3 +42,43 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+.head {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
